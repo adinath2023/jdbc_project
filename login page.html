@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text/css">
+  body{
+   margin: 0;
+   padding: 0;
+  }
+  header,footer{
+   height: 60px;
+   width: 100%;
+   color: white;
+   background-color: black;
+   text-align: center;
+  }
+  h1{
+   margin: 10px;
+  }
+  .container{
+   height: 400px;
+   width: 400px;
+   box-shadow: 0px 0px 10px black;
+   margin: 80px auto;
+   border-radius: 10px;
+   padding: 10px;
+   text-align: center;
+  }
+  .inputfield{
+    
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   font-size: x-large;
+  }
+  input[type]{
+   height: 30px;
+   width: 350px;
+   margin: 10px;
+   border-top-style: none;
+   border-right-style:none;
+   border-left-style: none;
+   outline: none;
+  }
+  .btncontrol{
+   margin: 20px;
+  }
+  .heading{
+   font-size: 20px;
+  }
+  p{
+   font-size: large;
+  }
+  button{
+   height: 40px;
+   width: 200px;
+   border: none;
+   border-radius: 10px;
+   background-color: blue;
+   color: white;
+   font-size: larger;
+  }
+  button:active{
+   background-color: white;
+   color: black;
+   border:3px solid black;
+  }
+ </style>
+</head>
+<body>
+  <header>
+    <h1>login page</h1>
+  </header>
+ <main>
+        <div class="container">
+            <div class="heading">
+                <h1>Login</h1>
+            </div>
+            <div class="inputfield">
+                <label>Username</label>
+                <input type="text" name="Username" placeholder="enter User name">
+            </div>
+            <div class="inputfield">
+                <label>Password</label>
+                <input type="password" name="Password" placeholder="password">
+            </div>
+            <p><a href="#">Forget password?</a></p>
+            <div class="btncontrol">
+                <button>Login</button>
+            </div>
+           
+            <div>If page not found<a href="#" >Click here </a>
+        </div>
+    </main>
+    <footer>
+         <h1>&copy;copyright2025</h1>
+    </footer>
+</body>
+</html>
